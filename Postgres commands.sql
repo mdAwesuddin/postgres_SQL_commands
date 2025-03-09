@@ -3324,4 +3324,77 @@
 --   ('Roberts Rich Spaghetti', 5),
 --   ('Mias Popular Ice', 14);
 
-SELECT * from testproducts;
+-- SELECT * from testproducts;
+
+
+-- OPERATORS
+
+-- SELECT * FROM cars
+-- WHERE brand = 'GMC'
+-- '=' operator
+
+-- SELECT * FROM cars
+-- WHERE year < '1975';
+-- '<' less than operator
+
+-- SELECT * FROM cars
+-- WHERE year > '1975';
+-- '>' greater than operator
+
+-- SELECT * FROM cars
+-- WHERE year <= '1975';
+-- '<=' less than equal to operator
+
+-- SELECT * FROM cars
+-- WHERE year >= '1975';
+-- '>=' greater than equal to operator
+
+-- SELECT * FROM cars
+-- WHERE brand != 'Volvo';
+-- '<> or !=' NOT equal to operator
+
+-- SELECT * FROM cars
+-- WHERE model LIKE 'P%';
+
+-- SELECT * FROM cars WHERE model LIKE '__a%';
+-- LIKE operator follows a pattern that can be an string e.g
+-- 'Volvo' or wildcard that has a special meaning
+-- % represents zero, one or multiple characters
+-- _ represents one single character
+
+-- SELECT * FROM cars
+-- WHERE model ILIKE 'm%'
+-- same as LIKE but it is case insensitive
+
+-- SELECT * FROM cars
+-- WHERE brand ='GMC' AND year = '2013';
+-- AND operator
+
+-- SELECT * FROM cars
+-- WHERE brand = 'GMC' OR year = '1975';
+-- OR operator
+
+-- SELECT * FROM cars
+-- WHERE brand IN ('Volvo', 'Mercedes Benz', 'Ford');
+-- IN operator is used when a column value match any of the values in the list
+
+-- SELECT * FROM cars
+-- WHERE year BETWEEN '1970' AND '2015';
+-- BETWEEN operator used to check if a column value is between a specified range of values
+
+-- SELECT * FROM cars
+-- WHERE model IS NULL;
+-- IS NULL operator used to check id column value is NULL
+
+-- SELECT * FROM cars
+-- WHERE brand NOT LIKE 'F%';
+
+-- SELECT * FROM cars
+-- WHERE brand NOT IN ('Volvo','Ford')
+
+-- SELECT * FROM cars
+-- WHERE color IS NOT NULL;
+-- NOT operator can be used with LIKE, ILIKE, IN, BETWEEN, and NULL
+
+-- SELECT customer_name, country FROM customers;
+-- to SELECT specfic coloumns from the table
