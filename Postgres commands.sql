@@ -3398,3 +3398,32 @@
 
 -- SELECT customer_name, country FROM customers;
 -- to SELECT specfic coloumns from the table
+
+-- SELECT DISTINCT country FROM customers;
+-- select distinct statement is used to return only distinct (different) values.
+
+-- SELECT COUNT(DISTINCT country) FROM customers;
+-- it count the distinct values
+
+-- SELECT * FROM customers
+-- WHERE city = 'London';
+
+-- SELECT * FROM customers
+-- WHERE customer_id = '19';
+
+-- SELECT * FROM customers
+-- WHERE customer_id > 80;
+-- where clauses
+
+-- SELECT * FROM products
+-- ORDER BY price;
+-- order by keyword used to sort the result in ascending or descending order
+-- by default it will sort in ascending order
+
+-- SELECT * FROM products
+-- ORDER BY price DESC;
+-- add DESC to sort in descending order
+
+-- SELECT * FROM products
+-- ORDER BY product_name;
+-- for string values it will sort alphabetically
