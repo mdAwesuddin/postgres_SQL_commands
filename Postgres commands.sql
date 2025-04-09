@@ -6,7 +6,7 @@
 --   model VARCHAR(250),
 --   year INT
 -- );
- -- this command used to create an table named "cars"
+--  this command used to create an table named "cars"
  
 -- SELECT * FROM cars
 -- this command display the table
@@ -3427,3 +3427,11 @@
 -- SELECT * FROM products
 -- ORDER BY product_name;
 -- for string values it will sort alphabetically
+
+-- SELECT * FROM customers
+-- LIMIT 20;
+-- LIMIT clause is used to limit the maximum number of records to return
+
+-- SELECT * FROM customers
+-- LIMIT 20 OFFSET 40;
+-- OFFSET clause is used to specify where to start selecting the records to return
